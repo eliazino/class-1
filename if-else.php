@@ -20,8 +20,7 @@ if( $age >= 18){
         echo "Chief, welcome to our main bar";
     }elseif($balance >= 500){
         echo "Poor ass, Just come in here";
-    }
-    else{
+    }else{
         echo "Please Go and get more money";
     }    
 }else{
