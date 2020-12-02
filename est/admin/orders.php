@@ -74,7 +74,7 @@ if($_SESSION['type'] != 2){
   <a class="active" href="index.php">Home</a>    
     <?php
 	if(isset($_SESSION["username"])){
-        echo '<a href="destroy.php">'.$_SESSION["username"].'(Logout)</a>';
+        echo '<a href="../destroy.php">'.$_SESSION["username"].'(Logout)</a>';
         echo '<a href="orders.php">Orders</a>';
 	}else{
 		echo '<a href="account.php">login</a>';
